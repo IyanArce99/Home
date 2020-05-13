@@ -1,0 +1,10 @@
+################################
+## Paleta de colore para HOME ##
+##      ® HOME by Soluna      ##
+################################
+
+#1C1C1C ---> Menús
+#191919 ---> Btn principal
+#212121 ---> Btn:hover
+#f2f2f2 ---> bg claro
+#1C1C1C ---> letras bg claro

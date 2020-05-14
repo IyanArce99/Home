@@ -366,9 +366,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #191919 ;
+	border: 1px solid #F4344F ;
 	border-radius: 1.5rem;
-	background-color: #191919;
+	background-color: #F4344F;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
 	cursor: pointer;
@@ -1410,14 +1410,14 @@ header video {
 .form {
 	padding-top: 6.25rem;
 	padding-bottom: 5.625rem;
-	background: #f2f2f2;
+	background: #212121;
 	background-size: cover; 
 }
 
 .form h2 {
 	margin-bottom: 1.125rem;
 	text-align: center;
-	color: #1C1C1C;
+	color: #f1f1f8;
 }
 
 .form .list-unstyled {
@@ -1425,27 +1425,27 @@ header video {
 	font-size: 1rem;
 	line-height: 1.5rem;
 	text-align: center;
-	color: #1C1C1C;
+	color: #f1f1f8;
 }
 
 .form .list-unstyled .fas,
 .form .list-unstyled .fab {
 	margin-right: 0.5rem;
 	font-size: 0.875rem;
-	color: #1C1C1C;
+	color: #f1f1f8;
 }
 
 .form .list-unstyled .fa-phone {
 	vertical-align: 3%;
 }
 .form li a {
-	color: #1C1C1C;
+	color: #f1f1f8;
 	text-decoration: none;
  }
 
 .form .checkbox,
 .form a {
-	 color: #1C1C1C;
+	 color: #f1f1f8;
  }
 
 
@@ -1513,6 +1513,26 @@ header video {
 .copyright .p-small {
 	color: #f1f1f8;
 	opacity: 0.6;
+}
+
+/***********************/
+/*    Termns          */
+/*********************/
+.modal-content {
+	height: 60%;
+}
+.modal-header {
+	color: #f1f1f8;
+	background: #212121;
+}
+.close {
+	color: #f1f1f8!important;
+}
+.modal-body p {
+	color: #989aa2;
+}
+.modal-body h4 {
+	color: #ff0062;
 }
 
 
@@ -1790,7 +1810,7 @@ a.back-to-top {
 		display: inline-block;
 		margin-right: 0.5rem;
 		margin-left: 0.5rem;
-		color: #1C1C1C;
+		color: #f1f1f8;
 	}
 
 	.form .list-unstyled .address {

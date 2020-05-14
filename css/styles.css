@@ -151,6 +151,24 @@ a.white {
 	transition: all 0.2s;
 }
 
+.btn-solid-web {
+	display: inline-block;
+	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+	border: 0.125rem solid #F4344F;
+	border-radius: 2rem;
+	background-color: #F4344F;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none!important;
+	transition: all 0.2s;
+}
+.btn-solid-web:hover {
+	background-color: transparent;
+	background-color: rgba(244, 52, 78, 0.877);
+	border: rgba(244, 52, 78, 0.877) ;
+	text-decoration: none;
+}
+
 .btn-solid-lg:hover {
 	background-color: transparent;
 	background-color: #212121 ;
@@ -164,9 +182,28 @@ a.white {
 	line-height: 0;
 	vertical-align: top;
 }
+.btn-solid-web .fas {
+	margin-right: 0.5rem;
+	font-size: 1.25rem;
+	line-height: 0;
+	vertical-align: top;
+}
 
 .btn-solid-lg .fab.fa-google-play {
 	font-size: 1rem;
+}
+
+.btn-solid-web .fas.fa-home {
+	font-size: 1rem;
+}
+
+.vrsn-web {
+	background-color: #F4344F;
+	border-radius: 1.5rem;
+}
+.vrsn-web:hover {
+	background-color: #F4344F;
+	color: white!important;
 }
 
 .btn-outline-reg {
@@ -323,7 +360,7 @@ select::-ms-expand {
 	display: block; /* used to eliminate a bottom gap difference between Chrome and IE/FF */
 	width: 100%;
 	height: 8rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
-	padding-top: 1.25rem;
+	padding-top: 1.8rem;
 	padding-left: 1.3125rem;
 	border: 1px solid #9791ae;
 	border-radius: 0.25rem;
@@ -834,6 +871,7 @@ header video {
 /****************************/
 .categories {
 	background: #212121;
+	padding: 6.25rem 0;
 }
 .categories .card-body {
 	background: #f2f2f2;

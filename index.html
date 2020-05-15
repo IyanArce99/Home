@@ -425,24 +425,24 @@
                 <div class="col-lg-6 offset-lg-3">
                 
                     <!-- Contact Form -->
-                    <form action="post" form="./php/contact.php" id="contactForm" data-toggle="validator" data-focus="false">
+                    <form id="contactForm" data-toggle="validator" data-focus="false">
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
+                            <input type="text" class="form-control-input" id="cname" name="name" required>
                             <label class="label-control" for="cname">Nombre</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
+                            <input type="email" class="form-control-input" id="cemail" name="mail" required>
                             <label class="label-control" for="cemail">Correo electrónico</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="fb">
+                            <input type="text" class="form-control-input" id="social" name="social" required>
                             <label class="label-control" for="fb">Red Social</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" placeholder="Cuéntanos un poco tu experiencia laboral, tus especialidades y cuánto tiempo llevas en el sector del Wellness y Fitness" required></textarea>
+                            <textarea class="form-control-textarea" id="cmessage" placeholder="Cuéntanos un poco tu experiencia laboral, tus especialidades y cuánto tiempo llevas en el sector del Wellness y Fitness" name="message" required></textarea>
                             <label class="label-control" for="cmessage">Mensaje</label>
                             <div class="help-block with-errors"></div>
                         </div>

@@ -19,6 +19,18 @@
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
+
+    <!--Analytics-->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52056480-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-52056480-2');
+        </script>
+
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -63,7 +75,7 @@
                     <a class="nav-link page-scroll" href="#contact">ENTRENADORES HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll vrsn-web mb-2" href="https://home.belife.io/">VERSIÓN WEB</a>
+                    <a class="nav-link page-scroll vrsn-web mb-2" href="./web">VERSIÓN WEB</a>
                 </li>
             </ul>
             <span class="nav-item social-icons">
@@ -101,7 +113,7 @@
     <header id="header" class="header">
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="./images/spot.mp4" type="video/mp4">
+          <source src="./images/ds2.mp4" type="video/mp4">
         </video>
         <div class="header-content">
             <div class="container">
@@ -116,7 +128,7 @@
                                 <a class="btn-solid-lg page-scroll" href="#"><i class="fab fa-apple"></i>PRÓXIMAMENTE...</a>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                <a class="btn-solid-web page-scroll text-center w-75" href="https://home.belife.io/"><i class="fas fa-home"></i>VERSIÓN WEB</a>
+                                <a class="btn-solid-web page-scroll text-center w-75" href="./web"><i class="fas fa-home"></i>VERSIÓN WEB</a>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +160,7 @@
                     <div class="p-heading p-large">Con este breve vídeo queremos darte una pequeña introducción a todas las funcionalidades de la aplicación</div>
                 </div> <!-- end of col -->
                 <!-- First group -->
-              <div class="col-12 col-md-6 col-lg-4 py-4">
+              <div class="col-12 col-md-6 col-lg-4 py-4 d-flex d-md-block justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="./images/pilates.png" alt="Card image cap">
                     <div class="card-body">
@@ -158,7 +170,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 py-4">
+              <div class="col-12 col-md-6 col-lg-4 py-4 d-flex d-md-block justify-content-center"">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="./images/fitness.png" alt="Card image cap">
                     <div class="card-body">
@@ -167,7 +179,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 py-4">
+              <div class="col-12 col-md-6 col-lg-4 py-4 d-flex d-md-block justify-content-center"">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="./images/estiramientos.png" alt="Card image cap">
                     <div class="card-body">
@@ -178,30 +190,30 @@
               </div>
                 <!-- End First group-->
                 <!-- Second group-->
-                <div class="col-12 col-md-6 col-lg-4 py-4">
+                <div class="col-12 col-md-6 col-lg-4 py-4 d-flex d-md-block justify-content-center"">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="./images/yoga.png" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Yoga</h5>
-                          <p class="card-text">Desconecta de tu rutina con nuestras clases, ¡conecta con yoga HOME!</p>
+                          <p class="card-text">Desconecta de tu rutina con nuestras clases. ¡Conecta contigo mismo con yoga HOME!</p>
                         </div>
                     </div>
                   </div>
-                  <div class="col-12 col-md-6 col-lg-4 py-4">
+                  <div class="col-12 col-md-6 col-lg-4 py-4 d-flex d-md-block justify-content-center"">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="./images/cardio.png" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Cardio</h5>
-                          <p class="card-text">Siente como tus pulsaciones van subiendo con el ritmo que llevamos en nuestras clases de cardio. ¡Ponte los cascos y muévete con nosotros!</p>
+                          <p class="card-text">Siente como tus pulsaciones van subiendo. ¡Ponte los cascos y muévete con nosotros!</p>
                         </div>
                     </div>
                   </div>
-                  <div class="col-12 col-md-6 col-lg-4 py-4">
+                  <div class="col-12 col-md-6 col-lg-4 py-4 d-flex d-md-block justify-content-center"">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="./images/eventos.png" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Eventos y Challengue</h5>
-                          <p class="card-text">Te retamos a unirte con nosotros. ¡Entra y descubre!</p>
+                          <p class="card-text">Te invitamos a unirte a nuestros challenges. ¡Entra y descubre tu reto HOME!</p>
                         </div>
                     </div>
                   </div>
@@ -420,13 +432,13 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="rrss">
-                            <label class="label-control" for="insta">Red social (Instagram, Facebook, Likedin...)</label>
+                            <input type="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">Correo electrónico</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="fb">
-                            <label class="label-control" for="fb">Facebook</label>
+                            <label class="label-control" for="fb">Red Social</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">

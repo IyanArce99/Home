@@ -853,6 +853,17 @@ header video {
 	margin-bottom: 1.25rem;
 }
 
+@media screen and (max-width:576px) { 
+	.video-header {
+		display: none;
+	}
+	.header {
+		background: url(../images/bg-ph.jpeg);
+		background-size: cover;
+		background-position: 35% 65%;
+	}
+}
+
 /****************************/
 /*     		Ads		   		*/
 /****************************/
